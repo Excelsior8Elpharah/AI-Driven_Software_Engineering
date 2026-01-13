@@ -20,7 +20,9 @@ jobs:
           node-version: 18
 
       - name: Instalar dependências
+        working-directory: ./auditai
         run: npm install
 
       - name: Build do projeto
+        working-directory: ./auditai
         run: npm run build
