@@ -1,0 +1,8 @@
+
+{
+  "name": "AuditAI: Call Center Intelligence",
+  "description": "A sophisticated AI-powered call center auditing platform. Transcribe sales calls in batch, analyze agent performance against mandatory argument scripts, and generate detailed feedback using Gemini AI.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
