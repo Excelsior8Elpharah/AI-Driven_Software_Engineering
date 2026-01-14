@@ -6,7 +6,7 @@
 
 [
 
-## 📋 **PARTE TEÓRICA (2,0 pontos)**
+## 📋 **PARTE TEÓRICA **
 
 ### 🏢 **1. Análise Problema Empresarial (Contexto Desafio)**
 
@@ -61,7 +61,7 @@ Tempo total: **90 segundos**
 
 **Quote oficial:** *"Copilot + Actions = ciclo de desenvolvimento transformado"* - Microsoft Engineering Lead.
 
-## 🛠️ **PARTE PRÁTICA (4,0 pontos)**
+## 🛠️ **PARTE PRÁTICA **
 
 ### 🎯 **Projeto Funcional (React + Gemini AI)**
 
