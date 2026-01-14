@@ -22,12 +22,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: ${{ env.NODE_VERSION }}
-          cache: 'npm'
+          cache: 'npm-store'  # Funciona sem lockfile
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci  # Gera lockfile se não existir
 
-      # Type-check apenas (tsconfig já tem "noEmit": true)
       - name: Type check
         run: npx tsc --noEmit
 
