@@ -65,7 +65,7 @@ Tempo total: **90 segundos**
 
 ### 🎯 **Projeto Funcional (React + Gemini AI)**
 
-**Demo:** [aistudio.google.com/app/demo](https://aistudio.google.com/app/demo)
+**Demo:** https://ai.studio/apps/drive/1nRZUzFGwYI-hUtWrUON3tlIe7xhgsKNu
 
 ### 💻 **Código Gerado com GitHub Copilot**
 
