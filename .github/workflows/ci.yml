@@ -1,7 +1,5 @@
-name: CI Vite React
-
+name: CI Vite
 on: [push, pull_request]
-
 jobs:
   ci:
     runs-on: ubuntu-latest
