@@ -1,26 +1,14 @@
-name: CI/CD Vite React
+name: CI Vite React
 
-on:
-  push:
-    branches: [ main, develop ]
-  pull_request:
-    branches: [ main ]
+on: [push, pull_request]
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
-    
     steps:
     - uses: actions/checkout@v4
-    
     - uses: actions/setup-node@v4
-      with:
-        node-version: 20
-        
+      with: node-version: 20
     - run: npm install
-    
     - run: npx tsc --noEmit
-    
     - run: npm run build
-    
-    - run: echo "✅ CI PASS!"
