@@ -4,44 +4,23 @@ on:
   push:
     branches: [ main, develop ]
   pull_request:
-    branches: [ main, develop ]
-
-env:
-  NODE_VERSION: '20'
+    branches: [ main ]
 
 jobs:
-  test:
-    name: Test & Build
+  build:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v4
-      
-    - name: List files (debug)
-      run: ls -la
-      
-    - name: Verify package.json
-      run: |
-        if [ ! -f "package.json" ]; then
-          echo "❌ package.json não encontrado!"
-          exit 1
-        fi
-        echo "✅ package.json OK"
-        
-    - name: Setup Node.js
-      uses: actions/setup-node@v4
+    - uses: actions/checkout@v4
+    
+    - uses: actions/setup-node@v4
       with:
-        node-version: ${{ env.NODE_VERSION }}
+        node-version: 20
         
-    - name: Install dependencies
-      run: npm install
-      
-    - name: Type check
-      run: npx tsc --noEmit
-      
-    - name: Build
-      run: npm run build
-      
-    - name: All tests passed! 🎉
-      run: echo "✅ CI Completo!"
+    - run: npm install
+    
+    - run: npx tsc --noEmit
+    
+    - run: npm run build
+    
+    - run: echo "✅ CI PASS!"
