@@ -18,16 +18,30 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v4
       
+    - name: List files (debug)
+      run: ls -la
+      
+    - name: Verify package.json
+      run: |
+        if [ ! -f "package.json" ]; then
+          echo "❌ package.json não encontrado!"
+          exit 1
+        fi
+        echo "✅ package.json OK"
+        
     - name: Setup Node.js
       uses: actions/setup-node@v4
       with:
         node-version: ${{ env.NODE_VERSION }}
         
     - name: Install dependencies
-      run: npm install  # Funciona SEM lockfile!
+      run: npm install
       
     - name: Type check
       run: npx tsc --noEmit
       
     - name: Build
       run: npm run build
+      
+    - name: All tests passed! 🎉
+      run: echo "✅ CI Completo!"
