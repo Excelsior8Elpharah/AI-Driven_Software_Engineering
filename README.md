@@ -156,17 +156,3 @@ DevOps: GitHub Copilot + Actions
 ```
 
 
-
-[1](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/49544077/c78c8877-afea-4bd7-8fcb-b970c24d9f2a/package.json)
-[2](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/49544077/1f8ce6dd-3430-4e8c-87ca-eb6b1e87534b/constants.tsx)
-[3](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/49544077/5fd9b151-0cb1-4dad-be97-8b4fce82d0ed/App.tsx)
-[4](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/49544077/e6a69537-5e2c-4004-b9b5-89e8a2e0b6f9/index.tsx)
-[5](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/49544077/73fb6cde-aff8-4125-85e2-4ae7c968d8f9/metadata.json)
-[6](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/49544077/e5fff9dd-fce1-4701-872e-f669ffdfc099/index.html)
-[7](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/49544077/657defee-d066-4b35-9707-75c5be371b53/README.md)
-[8](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/49544077/b1c4c558-db6d-499d-a5e1-b4fbdc75f7f4/vite.config.ts)
-[9](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/49544077/dd15e348-a372-48b7-bc97-f9fe8ebd9c0e/tsconfig.json)
-[10](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/49544077/75f5ad4d-de41-40c9-8edd-319771c763b5/types.ts)
-[11](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/49544077/d7bbf729-42ff-422b-b928-fe078a26505d/image.jpg)
-[12](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/49544077/61a7735b-998c-4af5-a754-20e827aa7955/image.jpg)
-[13](https://ppl-ai-file-upload.s3.amazonaws.com/web/direct-files/attachments/images/49544077/c98f6b63-f1fe-4772-8d92-218e65bc3147/image.jpg)
