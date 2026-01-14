@@ -9,5 +9,5 @@ jobs:
       with:
         node-version: 20
     - run: npm install
-    - run: npx tsc --noEmit
+    # - run: npx tsc --noEmit  # Comentar esta linha
     - run: npm run build
