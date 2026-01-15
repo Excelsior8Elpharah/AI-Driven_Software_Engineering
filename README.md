@@ -6,16 +6,16 @@
 
 [
 
-**O Fim do Dilema Velocidade vs. Qualidade
-O Problema: A equipe de engenharia enfrentava um gargalo crítico: o desenvolvimento era lento devido a tarefas repetitivas, e a qualidade era sacrificada porque a escrita de testes era vista como um atraso. O resultado eram bugs detectados tardiamente em produção, gerando altos custos e inconsistência no código.
+**O Fim do Dilema Velocidade vs. Qualidade**
+**O Problema: A equipe de engenharia enfrentava um gargalo crítico: o desenvolvimento era lento devido a tarefas repetitivas, e a qualidade era sacrificada porque a escrita de testes era vista como um atraso. O resultado eram bugs detectados tardiamente em produção, gerando altos custos e inconsistência no código.**
 
-A Solução: Como especialista, implementei um fluxo assistido por IA para unificar produtividade e rigor técnico:
+**A Solução: Como especialista, implementei um fluxo assistido por IA para unificar produtividade e rigor técnico:**
 
-GitHub Copilot: Acelerou a criação de código e automatizou a geração de testes, eliminando a barreira da "demora" na cobertura de qualidade.
+**GitHub Copilot: Acelerou a criação de código e automatizou a geração de testes, eliminando a barreira da "demora" na cobertura de qualidade.**
 
-GitHub Actions: Estabeleceu um pipeline de CI/CD para feedback instantâneo, validando cada entrega em segundos.
+**GitHub Actions: Estabeleceu um pipeline de CI/CD para feedback instantâneo, validando cada entrega em segundos.**
 
-Resultado: O protótipo prova que a IA transforma o ciclo de desenvolvimento, permitindo entregas extremamente rápidas sem abrir mão da excelência técnica.**
+**Resultado: O protótipo prova que a IA transforma o ciclo de desenvolvimento, permitindo entregas extremamente rápidas sem abrir mão da excelência técnica.**
 
 ## 📋 **PARTE TEÓRICA **
 
