@@ -6,19 +6,16 @@
 
 [
 
-📉 O Cenário: O Custo da Lentidão
-Uma operação de telecomunicações com 500 agentes enfrentava um sangramento financeiro de R$ 6 milhões por ano. O motivo? Um gap crítico de tempo: enquanto o mercado exige respostas instantâneas, o feedback para os vendedores levava 2 dias para ser processado manualmente. Esse atraso resultava em conversões baixas (15%) e na perda sistemática de vendas por objeções não tratadas.
+O Fim do Dilema Velocidade vs. Qualidade
+O Problema: A equipe de engenharia enfrentava um gargalo crítico: o desenvolvimento era lento devido a tarefas repetitivas, e a qualidade era sacrificada porque a escrita de testes era vista como um atraso. O resultado eram bugs detectados tardiamente em produção, gerando altos custos e inconsistência no código.
 
-No lado do desenvolvimento, a equipe vivia o eterno dilema: entregar rápido para estancar o prejuízo ou entregar com qualidade para evitar bugs.
+A Solução: Como especialista, implementei um fluxo assistido por IA para unificar produtividade e rigor técnico:
 
-💡 A Solução: Engenharia de Software Impulsionada por IA
-Para romper esse ciclo, desenvolvi o AuditAI. A solução não apenas resolve o problema do negócio, mas foi construída através de um novo paradigma de desenvolvimento:
+GitHub Copilot: Acelerou a criação de código e automatizou a geração de testes, eliminando a barreira da "demora" na cobertura de qualidade.
 
-Produto (AuditAI): Uma plataforma que utiliza o Google Gemini AI para transcrever e analisar chamadas em apenas 30 segundos, transformando o feedback que antes era tardio em uma ferramenta de correção imediata.
+GitHub Actions: Estabeleceu um pipeline de CI/CD para feedback instantâneo, validando cada entrega em segundos.
 
-Processo (IA + DevOps): Utilizei o GitHub Copilot para acelerar a codificação e a criação de testes automatizados (alcançando 95% de cobertura), garantindo que a alta velocidade de entrega não comprometesse a estabilidade.
-
-Qualidade (Pipeline): Implementei um fluxo de CI/CD via GitHub Actions, assegurando que cada melhoria fosse validada e entregue em um ciclo de apenas 90 segundos.
+Resultado: O protótipo prova que a IA transforma o ciclo de desenvolvimento, permitindo entregas extremamente rápidas sem abrir mão da excelência técnica.
 
 ## 📋 **PARTE TEÓRICA **
 
