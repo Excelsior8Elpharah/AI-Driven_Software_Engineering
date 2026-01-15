@@ -6,30 +6,19 @@
 
 [
 
-🎙️ AuditAI: A Revolução da Monitoria Assistida por IA
-📖 A Jornada: Do Sangramento de Receita à Excelência Operacional
-Imagine o cenário: um andar barulhento com 500 agentes ativos, centenas de ligações acontecendo simultaneamente e um prejuízo silencioso de R$ 6 milhões ao ano. Esse era o diagnóstico de uma gigante das telecomunicações.
+📉 O Cenário: O Custo da Lentidão
+Uma operação de telecomunicações com 500 agentes enfrentava um sangramento financeiro de R$ 6 milhões por ano. O motivo? Um gap crítico de tempo: enquanto o mercado exige respostas instantâneas, o feedback para os vendedores levava 2 dias para ser processado manualmente. Esse atraso resultava em conversões baixas (15%) e na perda sistemática de vendas por objeções não tratadas.
 
-🛑 O Problema: O Abismo entre Volume e Qualidade
-O desafio não era a falta de esforço, mas a barreira do tempo. Enquanto os supervisores levavam 2 dias para analisar manualmente uma ligação e dar feedback, as oportunidades de vendas escorriam pelos dedos. A conversão estagnada em 15% e as objeções mal tratadas em 30% dos casos criavam um ciclo de ineficiência que custava caro.
+No lado do desenvolvimento, a equipe vivia o eterno dilema: entregar rápido para estancar o prejuízo ou entregar com qualidade para evitar bugs.
 
-A equipe de desenvolvimento enfrentava o clássico dilema da engenharia:
+💡 A Solução: Engenharia de Software Impulsionada por IA
+Para romper esse ciclo, desenvolvi o AuditAI. A solução não apenas resolve o problema do negócio, mas foi construída através de um novo paradigma de desenvolvimento:
 
-"Como entregar uma ferramenta de análise em tempo recorde sem sacrificar a estabilidade do sistema?"
+Produto (AuditAI): Uma plataforma que utiliza o Google Gemini AI para transcrever e analisar chamadas em apenas 30 segundos, transformando o feedback que antes era tardio em uma ferramenta de correção imediata.
 
-⚡ A Virada de Chave: IA como Motor de Desenvolvimento
-Como especialista em IA e DevOps, assumi a missão de construir o AuditAI. A estratégia não foi apenas criar um software, mas transformar o próprio processo de construção dele.
+Processo (IA + DevOps): Utilizei o GitHub Copilot para acelerar a codificação e a criação de testes automatizados (alcançando 95% de cobertura), garantindo que a alta velocidade de entrega não comprometesse a estabilidade.
 
-Utilizando o GitHub Copilot como copiloto de código, aceleramos a fundação do projeto:
-
-Velocidade: 188 linhas de lógica complexa geradas instantaneamente (Transcrições e Componentes React).
-
-Segurança: 95% de cobertura de testes Jest criados em segundos, garantindo que a velocidade não trouxesse bugs.
-
-🛠️ A Solução Técnica: O Ciclo de 30 Segundos
-O AuditAI não é apenas um painel; é um ecossistema de inteligência. A solução captura a ligação, utiliza o Google Gemini AI para processar o contexto e devolve um score de performance e sugestões de melhoria em 30 segundos.
-
-Para sustentar essa agilidade, implementamos um pipeline de CI/CD via GitHub Actions que valida cada linha de código em apenas 90 segundos. O resultado é um ambiente onde a qualidade é automática e a entrega é contínua.
+Qualidade (Pipeline): Implementei um fluxo de CI/CD via GitHub Actions, assegurando que cada melhoria fosse validada e entregue em um ciclo de apenas 90 segundos.
 
 ## 📋 **PARTE TEÓRICA **
 
